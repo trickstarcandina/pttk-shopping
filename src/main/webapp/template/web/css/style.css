@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#FFFF00;
+  height: 1px;
+}
+body {
+  padding-top: 54px;
+  background-color: #c4e0e5;
+  height: 100%;
+}
+.container {
+  min-height: 100%;
+}
+body .col-lg-9 {
+  min-height: 100%;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
